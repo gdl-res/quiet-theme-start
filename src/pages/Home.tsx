@@ -10,15 +10,22 @@ export default function Home() {
       <section className="py-20 md:py-32">
         <div className="container px-4 mx-auto">
           <div className="max-w-3xl mx-auto text-center">
+            <div className="flex justify-center mb-6">
+              <img 
+                src="/lovable-uploads/653008c4-ca75-4e67-b800-2ee020e5d6fb.png" 
+                alt="Lookout Robotics" 
+                className="h-20" 
+              />
+            </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Building the future through innovation
+              Innovative Robotic Solutions
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              We're a startup focused on creating meaningful solutions to tomorrow's problems using cutting-edge technology.
+              End-to-end robotic solutions for industrial monitoring and inspection, enhancing safety and efficiency while reducing operational costs.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg">
-                <Link to="/projects">View Projects</Link>
+                <Link to="/projects">Our Solutions</Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link to="/contact">Get in Touch</Link>
@@ -28,13 +35,37 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Mission & Vision Section */}
       <section className="py-20 bg-muted/50">
         <div className="container px-4 mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Mission</h2>
+              <p className="text-lg text-muted-foreground">
+                Our mission is to impact industrial monitoring and inspection through end-to-end robotic solutions. 
+                We aim to improve safety, efficiency, and sustainability. We are committed to providing solutions 
+                that minimize human risk, reduce costs, and increase sustainability.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Vision</h2>
+              <p className="text-lg text-muted-foreground">
+                We envision a future where robots handle dangerous and tedious tasks, freeing humans to focus on 
+                higher-value work. By bridging natural and artificial intelligence, we aim to create safer, smarter, 
+                and more sustainable environments, driving efficiency and reliability across industries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-20">
+        <div className="container px-4 mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What We Do</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Technology</h2>
             <p className="text-lg text-muted-foreground">
-              We specialize in these key areas to deliver exceptional value
+              Hardware-agnostic approach, real-time data analysis, and seamless integration
             </p>
           </div>
 
@@ -45,9 +76,9 @@ export default function Home() {
                   <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Innovation</h3>
+              <h3 className="text-xl font-bold mb-3">Hardware-Agnostic</h3>
               <p className="text-muted-foreground">
-                We push boundaries and explore new frontiers to create solutions that didn't exist before.
+                We select the best-fit sensors and robotic platforms for each unique use case, providing tailored solutions.
               </p>
             </div>
 
@@ -57,9 +88,9 @@ export default function Home() {
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Security</h3>
+              <h3 className="text-xl font-bold mb-3">Real-time Analysis</h3>
               <p className="text-muted-foreground">
-                We build with security in mind from the ground up, protecting your data and privacy.
+                Our algorithms provide continuous data analysis and robot motion planning without lapses in attention.
               </p>
             </div>
 
@@ -71,11 +102,24 @@ export default function Home() {
                   <line x1="12" y1="17" x2="12" y2="21"></line>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Technology</h3>
+              <h3 className="text-xl font-bold mb-3">Seamless Integration</h3>
               <p className="text-muted-foreground">
-                We leverage cutting-edge tech to deliver the most efficient and effective solutions.
+                We integrate into pre-existing infrastructure without requiring costly downtime or modifications to the plant.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Project Status Section */}
+      <section className="py-20 bg-muted/50">
+        <div className="container px-4 mx-auto">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Project Status</h2>
+            <p className="text-lg text-muted-foreground mb-8 text-center">
+              The project has been funded by RoboIT, the robotics investment fund of CDP, with a pre-seed investment 
+              aimed at developing a proof of concept and establishing the company by the end of 2025.
+            </p>
           </div>
         </div>
       </section>
@@ -84,9 +128,9 @@ export default function Home() {
       <section className="py-20">
         <div className="container px-4 mx-auto">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to get started?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to transform your industrial processes?</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Join us on this journey of innovation and discovery.
+              Join us in creating safer, more efficient industrial environments through robotics.
             </p>
             <Button asChild size="lg">
               <Link to="/contact" className="inline-flex items-center">

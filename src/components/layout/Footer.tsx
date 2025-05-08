@@ -9,9 +9,16 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Novus</h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img 
+                src="/lovable-uploads/653008c4-ca75-4e67-b800-2ee020e5d6fb.png" 
+                alt="Lookout Robotics" 
+                className="h-8" 
+              />
+              <h3 className="text-xl font-bold">Lookout Robotics</h3>
+            </div>
             <p className="text-muted-foreground max-w-xs">
-              Building innovative solutions for tomorrow's challenges.
+              Building innovative, end-to-end robotic solutions for industrial monitoring and inspection.
             </p>
           </div>
           <div>
@@ -66,7 +73,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © {currentYear} Novus. All rights reserved.
+          © {currentYear} Lookout Robotics. All rights reserved.
         </div>
       </div>
     </footer>
