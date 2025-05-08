@@ -37,11 +37,10 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <img 
-            src="/lovable-uploads/653008c4-ca75-4e67-b800-2ee020e5d6fb.png" 
+            src="/lovable-uploads/9da68922-b257-4e1a-8105-58e791f21607.png" 
             alt="Lookout Robotics" 
             className="h-10"
           />
-          <span className="text-xl font-bold text-foreground hidden sm:inline">Lookout Robotics</span>
         </Link>
 
         {/* Desktop Navigation */}

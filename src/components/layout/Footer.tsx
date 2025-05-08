@@ -11,11 +11,10 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img 
-                src="/lovable-uploads/653008c4-ca75-4e67-b800-2ee020e5d6fb.png" 
+                src="/lovable-uploads/9da68922-b257-4e1a-8105-58e791f21607.png" 
                 alt="Lookout Robotics" 
                 className="h-8" 
               />
-              <h3 className="text-xl font-bold">Lookout Robotics</h3>
             </div>
             <p className="text-muted-foreground max-w-xs">
               Building innovative, end-to-end robotic solutions for industrial monitoring and inspection.

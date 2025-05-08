@@ -12,9 +12,9 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <div className="flex justify-center mb-6">
               <img 
-                src="/lovable-uploads/653008c4-ca75-4e67-b800-2ee020e5d6fb.png" 
+                src="/lovable-uploads/9da68922-b257-4e1a-8105-58e791f21607.png" 
                 alt="Lookout Robotics" 
-                className="h-20" 
+                className="h-24" 
               />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -71,7 +71,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-background p-8 rounded-lg border border-border">
-              <div className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-primary/20 text-primary rounded-lg flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
                 </svg>
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
 
             <div className="bg-background p-8 rounded-lg border border-border">
-              <div className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-primary/20 text-primary rounded-lg flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
                 </svg>
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
 
             <div className="bg-background p-8 rounded-lg border border-border">
-              <div className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-primary/20 text-primary rounded-lg flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                   <line x1="8" y1="21" x2="16" y2="21"></line>
